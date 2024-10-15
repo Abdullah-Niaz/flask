@@ -1,0 +1,3 @@
+{% comment %} {% for key, value in result.items() %} {% if key=='Score' and
+value >= 33 %} {% endcomment %} {% comment %} {% endif %} {% endfor %} {%
+endcomment %}

@@ -71,12 +71,10 @@
         </tr>
       </thead>
       <tbody>
-        {% for key, value in result.items() %}
         <tr>
-          <td>{{ key }}</td>
-          <td>{{ value }}</td>
+          <td>{{result['res']}}</td>
+          <td>{{ result['Score']}}</td>
         </tr>
-        {% endfor %}
       </tbody>
     </table>
   </body>

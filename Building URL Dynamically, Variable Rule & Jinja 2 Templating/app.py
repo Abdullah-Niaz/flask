@@ -16,7 +16,9 @@ def index(score):
         res = "Invalid score"
     elif score < 40:
         res = 'fail'
-    exp = {'result': res, "Score": score}
+    else:
+        res = "Pass"
+    exp = {'res': res, "Score": int(score)}
     return render_template('index.html', result=exp)
 
 
